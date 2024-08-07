@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.con {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.heading h1 {
+  font-size: 24px;
+  color: #5a9bd4;
+}
+
+
+.show {
+  background-color: #6a1b9a;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.show:hover {
+  background-color: #4a0072;
+}
+
+.title-bar {
+  width: 40%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d0d0d0;
+  margin-top: 10px;
+}
+
+.submit {
+  background-color: #6a1b9a;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.submit:hover {
+  background-color: #4a0072;
+}
+
+
+.container {
+  margin-top: 20px;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.user-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+.user-item h4 {
+  margin-top: 0;
+}
+
+.user-item button {
+  background-color: #6a1b9a;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-item button:hover {
+  background-color: #4a0072;
+}
+
+.delete,
+.cancel {
+  margin-left: 10px;
+}
+
+.editinput {
+  border: 1px solid #b0b0b0;
+  margin-top: 10px;
+}
+
+.saveedit,
+.cancel {
+  background-color: #6a1b9a;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.saveedit:hover {
+  background-color: #4a0072;
+}
+
+.cancel {
+  background-color: #b0b0b0;
+  color: #ffffff;
+}
+
+.cancel:hover {
+  background-color: #8c8c8c;
+}
+
+.edit {
+  background-color: #5b9bd5;
+  color: #ffffff;
+}
+
+.edit:hover {
+  background-color: #3b7ea0;
+}
+
+.delete {
+  background-color: #e57373;
+  color: #ffffff;
+}
+
+.delete:hover {
+  background-color: #d32f2f;
+}
+
+.class {
+  border: 1px solid #b0b0b0;
+  padding: 9px;
+  margin-top: 5px;
+}
