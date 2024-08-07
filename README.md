@@ -1,8 +1,18 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Add new users
+Edit existing users
+Delete users
+Display user list
+Technologies Used
+React
+JavaScript
+HTML
+CSS
+Axios for API requests
+API Endpoints
+https://jsonplaceholder.typicode.com/users (GET) - Fetch users data
+https://jsonplaceholder.typicode.com/users (POST) - Add new user
+https://jsonplaceholder.typicode.com/users/:id (PUT) - Edit existing user
+https://jsonplaceholder.typicode.com/users/:id (DELETE) - Delete user
+Note
+This application uses a mock API endpoint (https://jsonplaceholder.typicode.com/users) for demonstration purposes. You may need to replace this with your own API endpoint in a real-world application.
